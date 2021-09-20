@@ -1,0 +1,26 @@
+{
+  "name": "desafio_clases_es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelescobars/Desafio_Clases_ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelescobars/Desafio_Clases_ES6/issues"
+  },
+  "homepage": "https://github.com/rafaelescobars/Desafio_Clases_ES6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.6",
+    "core-js": "^3.18.0"
+  }
+}

@@ -8,7 +8,7 @@ export default class Impuestos {
     return this._monto_bruto_anual;
   }
   get deducciones() {
-    this._deducciones;
+    return this._deducciones;
   }
 
   set monto_bruto_anual(nuevo_monto_bruto_anual) {
