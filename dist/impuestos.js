@@ -13,22 +13,22 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 var Impuestos = /*#__PURE__*/function () {
   function Impuestos() {
-    var monto_bruto_anual = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+    var montoBrutoAnual = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
     var deducciones = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
     _classCallCheck(this, Impuestos);
 
-    this._monto_bruto_anual = monto_bruto_anual;
+    this._montoBrutoAnual = montoBrutoAnual;
     this._deducciones = deducciones;
   }
 
   _createClass(Impuestos, [{
-    key: "monto_bruto_anual",
+    key: "montoBrutoAnual",
     get: function get() {
-      return this._monto_bruto_anual;
+      return this._montoBrutoAnual;
     },
-    set: function set(nuevo_monto_bruto_anual) {
-      this._monto_bruto_anual = nuevo_monto_bruto_anual;
+    set: function set(nuevo_montoBrutoAnual) {
+      this._montoBrutoAnual = nuevo_montoBrutoAnual;
     }
   }, {
     key: "deducciones",

@@ -33,7 +33,7 @@ var Cliente = /*#__PURE__*/function () {
   }, {
     key: "calcularImpuesto",
     value: function calcularImpuesto() {
-      return (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) * 0.21;
+      return (this._impuesto.montoBrutoAnual - this._impuesto.deducciones) * 0.21;
     }
   }]);
 

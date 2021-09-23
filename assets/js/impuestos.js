@@ -1,18 +1,18 @@
 export default class Impuestos {
-  constructor(monto_bruto_anual = 0, deducciones = 0) {
-    this._monto_bruto_anual = monto_bruto_anual;
+  constructor(montoBrutoAnual = 0, deducciones = 0) {
+    this._montoBrutoAnual = montoBrutoAnual;
     this._deducciones = deducciones
   }
 
-  get monto_bruto_anual() {
-    return this._monto_bruto_anual;
+  get montoBrutoAnual() {
+    return this._montoBrutoAnual;
   }
   get deducciones() {
     return this._deducciones;
   }
 
-  set monto_bruto_anual(nuevo_monto_bruto_anual) {
-    this._monto_bruto_anual = nuevo_monto_bruto_anual;
+  set montoBrutoAnual(nuevo_montoBrutoAnual) {
+    this._montoBrutoAnual = nuevo_montoBrutoAnual;
   }
   set deducciones(nueva_deducciones) {
     this._deducciones = nueva_deducciones;
